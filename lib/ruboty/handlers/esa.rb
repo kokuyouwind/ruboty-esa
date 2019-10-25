@@ -7,7 +7,7 @@ module Ruboty
       env :ESA_TOKEN, 'esa.io access token'
 
       on(
-        /create_post (?<json>.*)\z/,
+        /esa create_post (?<json>.*)\z/,
         name: "create_post",
         description: "Create a new post",
       )

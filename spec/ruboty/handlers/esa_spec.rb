@@ -13,7 +13,7 @@ RSpec.describe Ruboty::Handlers::Esa do
         name: 'path/to/post #tag',
         body_md: "# header\nline"
       )
-      robot.receive(body: 'ruboty create_post { "name": "path/to/post #tag", "body_md": "# header\nline" }')
+      robot.receive(body: 'ruboty esa create_post { "name": "path/to/post #tag", "body_md": "# header\nline" }')
     end
   end
 end
