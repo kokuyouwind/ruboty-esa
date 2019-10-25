@@ -16,7 +16,7 @@ ESA_TOKEN=your_token
 ## Usage
 
 ```
-@ruboty create_wip "path/to/category/title #tag" "body"
+@ruboty create_post { "name": "path/to/category/title #tag", "body_md": "# header\ntext" }
 ```
 
 ## Development
